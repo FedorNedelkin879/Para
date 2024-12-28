@@ -1,0 +1,10 @@
+﻿using Tyuiu.NedelkinFA.Sprint0.TaskReview.V0.Test;
+using Tyuiu.NedelkinFA.Sprint0.TaskReview.V0.Lib;
+Console.WriteLine("ВВедите значение х: ");
+int x = int.Parse(Console.ReadLine());
+Console.WriteLine("ВВедите значение y: ");
+int y = int.Parse(Console.ReadLine());
+Console.WriteLine("ВВедите значение z: ");
+int z = int.Parse(Console.ReadLine());
+Console.WriteLine($"({x} + {y} + {z})*5 = {DataService.Calc(x, y, z)}");
+Console.ReadKey();
